@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
+import { getConfig } from '@edx/frontend-platform';
 import { Card } from '@openedx/paragon';
 
 import createDOMPurify from 'dompurify';
